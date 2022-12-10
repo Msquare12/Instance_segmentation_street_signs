@@ -84,7 +84,7 @@ cv2_imshow(out.get_image()[:, :, ::-1])
 !pip install roboflow
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="kPlkb9CiTXQmZ1hJWun8")
+rf = Roboflow(api_key="Your API key here. Remember not to share it with anyone.")
 project = rf.workspace("malyajmishra").project("detect_signs_ads")
 dataset = project.version(1).download("coco-segmentation")
 
