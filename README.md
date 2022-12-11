@@ -1,7 +1,7 @@
 # Instance_segmentation_street_signs
-Detect and mask street signs and ads using Detectron2 instance segmentation
+Detect and mask(instance segmentation) street signs and advertisements by training Detectron2 on a 'custom dataset'.
 
-Sample results (Snippets from output videos below):
+Sample results (Snippets from output video below):
 
 
 ![12](https://user-images.githubusercontent.com/108494589/206840869-937ba59c-4c48-45f3-af3d-9277a20fa21f.jpg)
